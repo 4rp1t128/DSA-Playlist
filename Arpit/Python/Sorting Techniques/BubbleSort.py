@@ -1,5 +1,8 @@
 """_summary_
-        Basically We Compare Adjacent Elements and Swap them if they are in Wrong Order
+        Basically We Compare Adjacent Elements and Swap them if they are in Wrong Order 
+        in sucha way that the largest element bubbles up to the end of the array in each 
+        iteration.We try to do this for all the Elements in the Array and 
+        Repeat the Process for n-1 Times.
 """
 
 from typing import List
