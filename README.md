@@ -257,7 +257,7 @@ Every contributor is welcome to add their own solutions and help grow the DSA co
 ### Current Contributors
 
 * **Arpit**
-* **Omansh*
+* **Omansh**
 
 More contributors will be added as the repository grows.
 
