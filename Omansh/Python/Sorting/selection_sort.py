@@ -12,7 +12,9 @@ class Solution:
             least_val_idx = index
             for current in range(index+1, n):
                 if arr[current]< arr[least_val_idx]:
-                    arr[current], arr[least_val_idx] = arr[least_val_idx], arr[current]
+                    least_val_idx = current
+            arr[index], arr[least_val_idx] = arr[least_val_idx], arr[index]
+        return arr
 
 
 if __name__ == "__main__":
