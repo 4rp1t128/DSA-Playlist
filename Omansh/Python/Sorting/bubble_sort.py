@@ -1,4 +1,4 @@
-
+# Intuition: Compare adjacent elements and swap them if they are in the wrong order. Repeat this process for the entire array until no swaps are needed, which means the array is sorted.
 class Solution:
     def bubble_sort(self, arr):
         n = len(arr)
