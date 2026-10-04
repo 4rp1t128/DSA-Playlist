@@ -13,7 +13,7 @@ class Solution:
 
         left_idx = 0
         right_idx =0
-        write_idx =st_idx
+        write_idx = st_idx
 
         while left_idx<len(left_arr) and right_idx< len(right_arr):
             if right_arr[right_idx]<=left_arr[left_idx]:
